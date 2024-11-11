@@ -1,0 +1,104 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+#row {
+  padding: 0;
+  width: 80%;
+  margin: 80px auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+.top h1:first-child {
+  margin-top: 80px;
+  margin-bottom: -15px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.top h1 span {
+  font-weight: 600;
+}
+p {
+  width: 80%;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  opacity: 0.4;
+}
+.row-2 {
+  display: flex;
+  align-items: center;
+  margin: 80px 0;
+  gap: 20px;
+}
+
+.card {
+  font-weight: 600;
+  letter-spacing: 0;
+  width: 300px;
+  height: 280px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2),
+    1px 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 2s;
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.team {
+  margin-bottom: 20px;
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.super {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.kar {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.cal {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+.super p,
+.team p,
+.kar p,
+.cal p {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.super img,
+.team img,
+.kar img,
+.cal img {
+  float: right;
+  padding-right: 40px;
+  padding-top: 35px;
+}
+.attribution {
+  font-size: 16px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 78%, 44%);
+}
+@media (max-width: 375px) {
+  .row-2 {
+    flex-direction: column;
+  }
+  .top h1:first-child {
+    font-size: 25px;
+  }
+  .top h1 span {
+    font-size: 25px;
+  }
+  .top p {
+    width: 95%;
+    line-height: 1.6;
+  }
+  #div {
+    width: 280px;
+    height: 240px;
+  }
+}
